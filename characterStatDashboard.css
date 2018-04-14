@@ -1,0 +1,8 @@
+#control-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#control-block label {
+  padding-left: 1rem;
+}
