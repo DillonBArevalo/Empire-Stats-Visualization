@@ -1,0 +1,5 @@
+#!/bin/bash
+compiledSass=`command sass ${1}.scss`
+cat > ${1}.css << EOF
+$compiledSass
+EOF
